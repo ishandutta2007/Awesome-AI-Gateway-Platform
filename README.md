@@ -10,6 +10,12 @@ Keywords: ai gateway, llm gateway, llm proxy, litellm, portkey, kong, api gatewa
 
 # Awesome-AI-Gateway-Platform
 
+<div align="center">
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+
+</div>
+
 ## 🚀 Similar Projects to AI Gateway / LLM Gateway Platforms
 
 **AI Gateway (LLM Gateway)** platforms provide a unified API layer in front of multiple large language model providers. They handle routing, fallbacks, load balancing, virtual keys, budgets/cost tracking, rate limiting, caching, observability, guardrails, and often MCP/agent traffic. Leading commercial and managed tools include Portkey AI, OpenRouter, LiteLLM Gateway (managed options), Kong AI Gateway, Azure API Management, Tyk, MuleSoft, Gravitee, Zuplo, Cloudflare AI Gateway, Helicone, Braintrust Gateway, TrueFoundry AI Gateway, and NVIDIA Dynamo.
