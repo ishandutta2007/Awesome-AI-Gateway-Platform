@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a16"/>
+      <stop offset="50%" stop-color="#0d0d2b"/>
+      <stop offset="100%" stop-color="#050510"/>
+    </linearGradient>
+
+    <!-- Theme Color Gradients with animations -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a2be2">
+        <animate attributeName="stop-color" values="#8a2be2;#ff007f;#00ffff;#8a2be2" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#8a2be2;#ff007f;#00ffff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Text Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+        font-weight: 800;
+        font-size: 54px;
+        fill: url(#primaryGrad);
+        letter-spacing: 2px;
+      }
+      .subtitle {
+        font-family: 'Inter', system-ui, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        fill: #94a3b8;
+        letter-spacing: 4px;
+      }
+      .particle {
+        opacity: 0.6;
+        animation: float 6s ease-in-out infinite;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(-20px) translateX(10px); }
+      }
+      .node-pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { r: 6; opacity: 0.5; }
+        50% { r: 12; opacity: 1; }
+      }
+      .path-flow {
+        stroke-dasharray: 20, 10;
+        animation: dash 30s linear infinite;
+      }
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -1000;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+
+  <!-- Decorative Network / AI Gateway Lines -->
+  <g stroke="rgba(138, 43, 226, 0.15)" stroke-width="2" fill="none">
+    <path class="path-flow" d="M100,50 L300,100 L500,50 L700,150 L900,100 L1100,200" />
+    <path class="path-flow" d="M50,300 L250,200 L500,350 L750,250 L1000,300 L1150,150" />
+    <path class="path-flow" d="M200,400 C400,250 800,150 1000,50" stroke="rgba(0, 255, 255, 0.1)" stroke-width="3" />
+  </g>
+
+  <!-- Glowing Hub Nodes (Dynamic Pulse) -->
+  <g fill="#00ffff">
+    <circle cx="300" cy="100" r="8" class="node-pulse" style="animation-delay: 0s; fill: #00ffff; filter: drop-shadow(0 0 8px #00ffff);"/>
+    <circle cx="700" cy="150" r="8" class="node-pulse" style="animation-delay: 1s; fill: #8a2be2; filter: drop-shadow(0 0 8px #8a2be2);"/>
+    <circle cx="500" cy="350" r="8" class="node-pulse" style="animation-delay: 1.5s; fill: #ff007f; filter: drop-shadow(0 0 8px #ff007f);"/>
+    <circle cx="1000" cy="300" r="8" class="node-pulse" style="animation-delay: 0.5s; fill: #00ffff; filter: drop-shadow(0 0 8px #00ffff);"/>
+  </g>
+
+  <!-- Tech Badges / Floating Circles representing Gateways -->
+  <g transform="translate(100, 80)" class="particle" style="animation: float 8s ease-in-out infinite;">
+    <circle cx="0" cy="0" r="30" fill="rgba(138, 43, 226, 0.1)" stroke="rgba(138, 43, 226, 0.3)" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="'Inter', sans-serif" font-size="12" fill="#8a2be2" text-anchor="middle" font-weight="bold">LiteLLM</text>
+  </g>
+  <g transform="translate(1050, 100)" class="particle" style="animation: float 10s ease-in-out infinite; animation-delay: 1s;">
+    <circle cx="0" cy="0" r="35" fill="rgba(0, 255, 255, 0.08)" stroke="rgba(0, 255, 255, 0.35)" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="'Inter', sans-serif" font-size="12" fill="#00ffff" text-anchor="middle" font-weight="bold">Portkey</text>
+  </g>
+  <g transform="translate(950, 320)" class="particle" style="animation: float 7s ease-in-out infinite; animation-delay: 2s;">
+    <circle cx="0" cy="0" r="32" fill="rgba(255, 0, 127, 0.08)" stroke="rgba(255, 0, 127, 0.3)" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="'Inter', sans-serif" font-size="12" fill="#ff007f" text-anchor="middle" font-weight="bold">Kong</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <g text-anchor="middle" transform="translate(600, 210)">
+    <!-- Glow Effect Title -->
+    <text class="title" y="0" filter="url(#glow)" opacity="0.3">Awesome AI Gateway</text>
+    <!-- Sharp Title -->
+    <text class="title" y="0">Awesome AI Gateway</text>
+    <text class="subtitle" y="65">THE ULTIMATE LIST OF LLM &amp; AI GATEWAYS</text>
+  </g>
+</svg>

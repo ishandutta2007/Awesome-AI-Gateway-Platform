@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Gateway Banner" width="100%" />
+</div>
+
 # Awesome-AI-Gateway-Platform
 
 ## Similar Projects to AI Gateway / LLM Gateway Platforms
