@@ -4,11 +4,11 @@
 
 # Awesome-AI-Gateway-Platform
 
-## Similar Projects to AI Gateway / LLM Gateway Platforms
+## 🚀 Similar Projects to AI Gateway / LLM Gateway Platforms
 
 **AI Gateway (LLM Gateway)** platforms provide a unified API layer in front of multiple large language model providers. They handle routing, fallbacks, load balancing, virtual keys, budgets/cost tracking, rate limiting, caching, observability, guardrails, and often MCP/agent traffic. Leading commercial and managed tools include Portkey AI, OpenRouter, LiteLLM Gateway (managed options), Kong AI Gateway, Azure API Management, Tyk, MuleSoft, Gravitee, Zuplo, Cloudflare AI Gateway, Helicone, Braintrust Gateway, TrueFoundry AI Gateway, and NVIDIA Dynamo.
 
-Below is a **curated list** of notable platforms and their open-source equivalents. The focus is on **open-source** solutions that can be self-hosted for full control over prompts, keys, and data.
+Below is a **curated list** ✨ of notable platforms and their open-source equivalents. The focus is on **open-source** solutions that can be self-hosted for full control over prompts, keys, and data.
 
 ## 🏢 SaaS / Hosted Platforms
 
@@ -31,20 +31,20 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🔓 Open-Source Software
 
-### Leading Open-Source LLM / AI Gateways
+### 🌟 Leading Open-Source LLM / AI Gateways
 - **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers) — The most widely adopted open-source LLM gateway and proxy (MIT). Provides an OpenAI-compatible API for 100+ providers, virtual keys, budgets, rate limits, fallbacks, load balancing, spend tracking, and an admin UI. Can be used as a Python SDK or self-hosted proxy.
 - **[Kong AI Gateway](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) — AI plugins and capabilities built on the mature open-source Kong API Gateway (Apache-2.0 core). Strong choice if you already run Kong for other APIs.
 - **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** [![GitHub stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers) — Open-source AI gateway core (MIT/Apache) focused on production routing, retries, fallbacks, observability hooks, and governance features. Often paired with Portkey’s managed control plane.
 - **[Helicone](https://github.com/Helicone/helicone)** [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers) — Open-source LLM observability platform that also functions as an AI gateway. Excellent logging, tracing, sessions, caching, and analytics with self-hosting support.
 - **[Bifrost](https://github.com/maximhq/bifrost)** [![GitHub stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social&color=white)](https://github.com/maximhq/bifrost/stargazers) — High-performance open-source AI gateway written in Go. Emphasizes ultra-low latency, adaptive load balancing, virtual keys, budgets, guardrails, and support for many models/providers.
 
-### Other Strong Open-Source Options
+### 🛠️ Other Strong Open-Source Options
 - **[new-api / one-api](https://github.com/QuantumNous/new-api)** [![GitHub stars](https://img.shields.io/github/stars/QuantumNous/new-api?style=social&color=white)](https://github.com/QuantumNous/new-api/stargazers) (and related forks) — Popular open-source relay/billing-focused gateways, especially active in multi-provider and team usage scenarios.
 - **[Envoy AI Gateway / agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=social&color=white)](https://github.com/agentgateway/agentgateway/stargazers) — Cloud-native, Envoy-based or dedicated gateways focused on LLM, MCP, and agent-to-agent (A2A) traffic with security and observability.
 - **[Inference Gateway](https://github.com/inference-gateway)** [![GitHub stars](https://img.shields.io/github/stars/inference-gateway/inference-gateway?style=social&color=white)](https://github.com/inference-gateway/inference-gateway/stargazers) — Open-source, cloud-native gateway unifying multiple LLM providers (including local ones like Ollama) behind a single API with Kubernetes support.
 - Various high-performance Go/Rust gateways (search GitHub for “llm-gateway”, “ai-gateway”, or “openai-proxy”) that prioritize low latency and simple deployment.
 
-### Typical Open-Source Stack Patterns
+### 🌐 Typical Open-Source Stack Patterns
 Many teams combine:
 - **LiteLLM** or **Bifrost** as the core proxy/router
 - **Helicone** (or built-in analytics) for observability
@@ -53,11 +53,11 @@ Many teams combine:
 
 ---
 
-**How to contribute**  
+🤝 **How to contribute**  
 Fork this repository, add a new project (with link + short description + category), and open a pull request.  
 Prefer actively maintained open-source projects that provide unified LLM routing, virtual keys, cost controls, or observability.
 
-**License**  
+📄 **License**  
 This list is public domain / CC0. Feel free to copy into your own awesome list or README.
 
 Star the projects you find useful — the open-source AI gateway ecosystem is evolving very quickly! ⚡
