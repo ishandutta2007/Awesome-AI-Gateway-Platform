@@ -1,3 +1,9 @@
+<!--
+Title: Awesome AI Gateway & LLM Gateway Platforms
+Description: A curated list of commercial and open-source AI and LLM gateway platforms featuring LiteLLM, Kong, Portkey, Cloudflare, Azure, and more. Optimized for cost, latency, and routing.
+Keywords: ai gateway, llm gateway, llm proxy, litellm, portkey, kong, api gateway, machine learning, deep learning, artificial intelligence
+-->
+
 <div align="center">
   <img src="assets/banner.svg" alt="Awesome AI Gateway Banner" width="100%" />
 </div>
