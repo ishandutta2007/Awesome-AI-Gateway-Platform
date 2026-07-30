@@ -8,19 +8,22 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🏢 SaaS / Hosted Platforms
 
-- **[OpenRouter](https://openrouter.ai/)** — Popular managed multi-model gateway with access to hundreds of models through one API and pay-as-you-go credits.
-- **[Portkey AI](https://portkey.ai/)** — Production AI gateway and control plane with strong governance, observability, guardrails, and prompt management (gateway core is open source).
-- **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)** — Edge-based AI gateway with caching, analytics, rate limiting, and easy integration for Cloudflare users.
-- **[Azure API Management / Azure AI Gateway](https://azure.microsoft.com/)** — Enterprise API management extended with AI policies, routing, and governance inside the Microsoft ecosystem.
-- **[Kong AI Gateway](https://konghq.com/)** — AI-specific capabilities layered on Kong’s API gateway platform (open-source core + enterprise features).
-- **[TrueFoundry AI Gateway](https://www.truefoundry.com/)** — Enterprise AI gateway focused on self-hosted/VPC deployments, governance, and production LLMOps.
-- **[Helicone](https://www.helicone.ai/)** — Observability-first AI gateway and LLMOps platform (strong open-source components available).
-- **[Zuplo](https://zuplo.com/)** — Developer-friendly API gateway with AI/LLM support and serverless-style management.
-- **[Gravitee / Gravitee AI Gateway](https://www.gravitee.io/)** — API management platform with AI gateway capabilities.
-- **[Tyk](https://tyk.io/)** — API gateway with AI/LLM extensions and open-source options.
-- **[MuleSoft](https://www.mulesoft.com/)** — Enterprise integration platform with API and AI gateway features.
-- **[Braintrust Gateway](https://www.braintrust.dev/)** — Gateway and evaluation-focused tooling for LLM applications.
-- **[NVIDIA Dynamo](https://www.nvidia.com/)** — NVIDIA’s inference and AI serving/gateway-related technologies for high-performance deployments.
+| Platform | Description | Company Size (Valuation/Revenue) | Pricing & Free Tier Limits |
+| --- | --- | --- | --- |
+| **[Azure API Management / Azure AI Gateway](https://azure.microsoft.com/)** | Enterprise API management extended with AI policies, routing, and governance inside the Microsoft ecosystem. | ~$3.2 Trillion Valuation (Microsoft) | Free Developer tier (limited features); standard pay-as-you-go from $0.03 per 10k requests. |
+| **[NVIDIA Dynamo](https://www.nvidia.com/)** | NVIDIA’s inference and AI serving/gateway-related technologies for high-performance deployments. | ~$3.1 Trillion Valuation (NVIDIA) | Pay-as-you-go pricing; free developer access via NVIDIA NIM API credits. |
+| **[MuleSoft](https://www.mulesoft.com/)** | Enterprise integration platform with API and AI gateway features. | ~$250 Billion Valuation (Salesforce) | Custom Enterprise pricing (no public free tier; standard trial available). |
+| **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)** | Edge-based AI gateway with caching, analytics, rate limiting, and easy integration for Cloudflare users. | ~$30 Billion Valuation (Cloudflare) | Free tier available (up to 100k requests/day); paid plans are pay-as-you-go. |
+| **[Kong AI Gateway](https://konghq.com/)** | AI-specific capabilities layered on Kong’s API gateway platform (open-source core + enterprise features). | ~$2.0 Billion Valuation (Kong Inc.) | Open source is free to self-host; custom enterprise pricing. |
+| **[OpenRouter](https://openrouter.ai/)** | Popular managed multi-model gateway with access to hundreds of models through one API and pay-as-you-go credits. | ~$1.3 - $10 Billion Valuation | Free access to 10+ open models; pay-as-you-go based on token usage. |
+| **[Braintrust Gateway](https://www.braintrust.dev/)** | Gateway and evaluation-focused tooling for LLM applications. | $800 Million Valuation | Free tier available (100 runs/mo, 5k trace events/mo); Team plan starts at $100/mo. |
+| **[Gravitee / Gravitee AI Gateway](https://www.gravitee.io/)** | API management platform with AI gateway capabilities. | ~$150M - $250M Valuation ($125M Funding) | Free open-source self-hosting; custom enterprise contracts. |
+| **[Portkey AI](https://portkey.ai/)** | Production AI gateway and control plane with strong governance, observability, guardrails, and prompt management (gateway core is open source). | ~$140 Million Valuation | Free Developer tier (10k requests/mo); Team plan starts at $99/mo. |
+| **[Tyk](https://tyk.io/)** | API gateway with AI/LLM extensions and open-source options. | ~$100M+ Valuation ($41M Funding) | Free self-hosted developer tier (1 gateway); paid plans start at $150/mo. |
+| **[TrueFoundry AI Gateway](https://www.truefoundry.com/)** | Enterprise AI gateway focused on self-hosted/VPC deployments, governance, and production LLMOps. | ~$50M - $100M Valuation ($21.3M Funding) | Custom enterprise pricing; free developer trial available. |
+| **[Zuplo](https://zuplo.com/)** | Developer-friendly API gateway with AI/LLM support and serverless-style management. | ~$30M - $50M Valuation ($9M Funding) | Free tier available (up to 100k requests/mo); paid plans start at $25/mo. |
+| **[Helicone](https://www.helicone.ai/)** | Observability-first AI gateway and LLMOps platform (strong open-source components available). | Acquired by Mintlify in 2026 | Free tier available (up to 10k requests/mo); paid plans start at $20/mo. |
+
 
 ## 🔓 Open-Source Software
 
