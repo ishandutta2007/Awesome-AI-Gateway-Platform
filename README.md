@@ -39,7 +39,7 @@ Below is a **curated list** ✨ of notable platforms and their open-source equiv
 | **[TrueFoundry AI Gateway](https://www.truefoundry.com/)** | Enterprise AI gateway focused on self-hosted/VPC deployments, governance, and production LLMOps. | ~$50M - $100M Valuation ($21.3M Funding) | Custom enterprise pricing; free developer trial available. |
 | **[Zuplo](https://zuplo.com/)** | Developer-friendly API gateway with AI/LLM support and serverless-style management. | ~$30M - $50M Valuation ($9M Funding) | Free tier available (up to 100k requests/mo); paid plans start at $25/mo. |
 | **[Helicone](https://www.helicone.ai/)** | Observability-first AI gateway and LLMOps platform (strong open-source components available). | Acquired by Mintlify in 2026 | Free tier available (up to 10k requests/mo); paid plans start at $20/mo. |
-| **[XiuRouter](https://router.xiu.ai/)** | Hosted multi-model API with native OpenAI Responses and Chat Completions, Anthropic Messages, and Gemini GenerateContent interfaces, scoped API keys, and per-request usage and cost records. | 3 employees / Private | Usage-based prepaid; no free plan. |
+| **[XiuRouter](https://router.xiu.ai/)** | Hosted multi-model API with native OpenAI Responses and Chat Completions, Anthropic Messages, and Gemini GenerateContent interfaces, scoped API keys, and per-request usage and cost records. | Not publicly disclosed | Usage-based prepaid; no free plan. |
 
 
 ## 🔓 Open-Source Software
