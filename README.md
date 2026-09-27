@@ -40,6 +40,7 @@ Below is a **curated list** ✨ of notable platforms and their open-source equiv
 | **[Zuplo](https://zuplo.com/)** | Developer-friendly API gateway with AI/LLM support and serverless-style management. | ~$30M - $50M Valuation ($9M Funding) | Free tier available (up to 100k requests/mo); paid plans start at $25/mo. |
 | **[Helicone](https://www.helicone.ai/)** | Observability-first AI gateway and LLMOps platform (strong open-source components available). | Acquired by Mintlify in 2026 | Free tier available (up to 10k requests/mo); paid plans start at $20/mo. |
 | **[XiuRouter](https://router.xiu.ai/)** | Hosted multi-model API with native OpenAI Responses and Chat Completions, Anthropic Messages, and Gemini GenerateContent interfaces, scoped API keys, and per-request usage and cost records. | 3 employees / Private | Usage-based prepaid; no free plan. |
+| **[APIClaw](https://apiclaw.biz/)** | Flat-rate OpenAI-compatible AI API gateway for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM models. | Private | Plans $19-$129/mo; 50 free trial. |
 
 
 ## 🔓 Open-Source Software
